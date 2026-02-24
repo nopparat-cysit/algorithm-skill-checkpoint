@@ -3,8 +3,8 @@ function findStudentById(students, id) {
     if (students[i].id === id) {
       return students[i];
     }
-    return null;
   }
+  return null;
 }
 
 // Test case
